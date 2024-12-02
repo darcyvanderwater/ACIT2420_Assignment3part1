@@ -1,0 +1,8 @@
+[Unit]
+Description=It's the timer for the generate_index service
+
+[Timer]
+Oncalendar=*-*-* 05:00
+
+[Install]
+WantedBy=timers.target
